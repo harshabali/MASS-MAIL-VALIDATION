@@ -1,0 +1,77 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+label{
+    font-size: 2vw;
+}
+h2,h4{
+    font-size: 2vw;
+}
+h1{
+    font-size: 2.5vw;
+}
+h5{
+    font-size: 1.5vw;
+}
+h5,h4,h2{
+    color: chartreuse;
+    font-family: math;
+}
+h2,h1{
+    color: red;
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.heading{
+    background-color: black;
+    width: 100%;
+}
+.backgroundimg{
+  width: 100%;
+  height: 100%;
+  background-image: url('maildispatch.jpg');
+  background-size: 100% 100%;  
+}
+ul{
+    color: white;
+    font-size: 2vw;
+}
+ 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .backgroundimg{
+        height: 400px;
+    }
+    h1,h4,h5,h2{
+        font-size: medium;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .backgroundimg{
+        height: 550px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .backgroundimg{
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width: 242px) {
+    .backgroundimg{
+        height: 270px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    label{
+        font-size: x-large;
+    }
+}

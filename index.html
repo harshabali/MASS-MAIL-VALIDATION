@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>MASS MAIL DISPATCHER</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+<style>
+    /* CSS styles for the file upload section */
+    .file-upload {
+      margin-left: 20px;
+    }
+    .file-upload input[type="file"] {
+      display: none;
+    }
+    .file-upload label {
+      display: inline-block;
+      padding: 8px 12px;
+      background-color: #00FF00;
+      color: white;
+      cursor: pointer;
+    }
+    .file-upload label:hover {
+      background-color: #3367d6;
+    }
+   
+  </style>
+</head>
+
+<body>
+
+<div class="heading">
+    <h2>MASS MAIL DISPATCHER WEBSITE</h2>
+</div>
+
+<div class="backgroundimg"></div>
+
+<div style="background-color:black;">
+    <h4 style="margin: 0px;">Welcome to mass mail validation website</h4>
+    <h5>Use this free website to validate mass mails  </h5>
+    <h5>Upload your csv file and make a list of valid and invalid emails hassle free</h5>
+    <h5>Please upload your csv file below</h5>
+    <h1>Email Validation</h1>
+  
+  <div class="file-upload">
+    <input type="file" id="csvFile" accept=".csv">
+    <label for="csvFile">Upload CSV File</label>
+  </div>
+
+  <div>
+      <h2>Valid Email Addresses:</h2>
+      <ul id="validEmailList"></ul>
+    
+      <h2>Invalid Email Addresses:</h2>
+      <ul id="invalidEmailList"></ul>
+   </div>
+</div>
+
+<script src="script.js"> </script>
+
+      
+</body>
+</html>
